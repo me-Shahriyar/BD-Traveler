@@ -101,7 +101,6 @@ nav ul {
 nav a {
     text-decoration: none;
     text-align: center;
-    font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -380,7 +379,6 @@ nav span {
 
 .offer-box h5 {
     text-align: center;
-    font-family: Mulish;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -390,7 +388,6 @@ nav span {
 }
 
 .offer-box h2 {
-    font-family: Mulish;
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
@@ -573,5 +570,52 @@ footer hr {
 
     .destinate {
         font-weight: 700;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Extra Section */
+
+.our-impact {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.our-impact h2 {
+    color: #333;
+}
+
+.impact-points {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.impact-point {
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .impact-points {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impact-point {
+        width: 100%;
     }
 }
